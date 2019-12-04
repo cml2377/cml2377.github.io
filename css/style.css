@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-align: center;
     color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,44 +12,108 @@ body {
 }
 
 header {
-    position: fixed;
+    position: relative;
     background: #cccccc;
     height: 150px;
     width: 100%;
     display: block;
-    overflow: auto;
+    float: left;
+    border-bottom: 2px solid #666666;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clearfix::after {
     clear: both;
 }
 
+.navigation {
+    align-content: bottom;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+  }
+
 h1 {
+    position: absolute;
+    top: 80px;
+    margin: auto;
     float: left;
     text-align: left;
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 15px;
-    margin-bottom: 0px;
 }
 
-#headLinks {
-    display: flex-end;
+h2 {
     clear: both;
-    position: relative;
+    color: #4aaaa5;
+    font-size: 24px;
+}
+
+#photoCrystal {
+    float: left;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.theRealContent {
+    clear: both;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+#container {
+    position: absolute;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0 auto;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #666666;
+    border-radius: 4px;
+}
+
+form {
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=message] {
+    width: 50%;
+    padding: 12px 300px 400px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
     bottom: 0px;
-    margin-bottom: 0px;
-    border-bottom: 0px;
-}
-
-.links {
-    float: right;
-    bottom: 0px;
-    margin-bottom: 0px;
-    padding: 15px;
-}
-
-#headerBreak {
-    clear: both;
-}
-
-#theContent {
-    clear: both;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    border-color: #4aaaa5;
 }
