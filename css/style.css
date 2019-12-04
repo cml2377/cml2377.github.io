@@ -1,0 +1,54 @@
+/* Style sheet for index, portfolio, and contact pages */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: #777777;
+}
+
+body {
+    background-image: url("../images/herringbone.png");
+}
+
+header {
+    position: fixed;
+    background: #cccccc;
+    height: 150px;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+#headLinks {
+    display: flex-end;
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.links {
+    float: right;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+#headerBreak {
+    clear: both;
+}
+
+#theContent {
+    clear: both;
+}
