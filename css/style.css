@@ -154,11 +154,10 @@ input[type=submit] {
     box-sizing: border-box;
     position: absolute;
     bottom: 5px;
+    left: 10px;
     width: 100%;
     background-color: #4aaaa5;
     opacity: 0.8;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 h4 {
