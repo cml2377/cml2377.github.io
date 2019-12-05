@@ -155,6 +155,14 @@ input[type=submit] {
     box-shadow: none;
 }
 
+input:hover {
+    background-color: #c2bfbf;
+}
+
+input:active {
+    background-color: #666666;
+}
+
 .imageContainer {
     position: relative;
     display: inline-block;
