@@ -2,7 +2,6 @@
 
 /* Overall CSS if not specified below */
 * {
-    box-sizing: border-box;
     text-align: center;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
