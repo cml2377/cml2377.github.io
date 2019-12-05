@@ -146,14 +146,15 @@ input[type=submit] {
     position: relative;
     display: inline-block;
     object-fit: cover;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .babyAnimals {
 }
 
 .textBlock {
+    box-sizing: border-box;
     position: absolute;
     bottom: 5px;
     width: 100%;
