@@ -118,6 +118,19 @@ form {
     text-align: left;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(43, 110, 131);
+    opacity: 0.8; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(43, 110, 131);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(43, 110, 131);
+  }
+
 input[type=text] {
     text-align: left;
     width: 95%;
