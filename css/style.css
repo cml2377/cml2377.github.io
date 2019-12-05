@@ -1,5 +1,6 @@
 /* Style sheet for index, portfolio, and contact pages */
 
+/* Overall CSS if not specified below */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -7,11 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Margin must be 0 to override browser CSS */
 body {
     margin: 0px;
     background-image: url("../images/herringbone.png");
 }
 
+/* Header mostly matches the footer */
 header {
     position: relative;
     left: 0;
@@ -29,6 +32,7 @@ header {
     clear: both;
 }
 
+/* Navigation bar must match sizing of main container */
 .navigation {
     position: relative;
     max-width: 960px;
@@ -52,6 +56,7 @@ a {
     text-decoration: none;
 }
 
+/* makes a border for all 'a's except for the last one */
 a:not(:last-child) {
     border-right: 1px solid #c2bfbf;
 }
@@ -109,6 +114,7 @@ p {
     margin-bottom: 30px;
 }
 
+/* force the text to stay to the left, overriding the beginning css */
 form {
     text-align: left;
 }
