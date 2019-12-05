@@ -44,12 +44,16 @@ nav {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    padding: 15px;
+    padding: 20px;
 }
 
 a {
     padding: 10px;
     text-decoration: none;
+}
+
+a:not(:last-child) {
+    border-right: 1px solid #c2bfbf;
 }
 
 h1 {
