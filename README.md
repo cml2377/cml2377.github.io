@@ -1,15 +1,15 @@
 # Crystal Ly's Portfolio
 
-* [Click here](https://cml2377.github.io/)
+* [Click here to check it out.](https://cml2377.github.io/)
 
 ## Hello!
 
-This is Crystal Ly's profile with portfolio.
+This is Crystal Ly's developer profile.
 
 ## Look at my Projects!
 
 Click on any photo of my projects to be taken to the github repo that holds it.
-<img src="assets/images/Screenshot1.png" width="100%" height="auto">
+<img src="assets/images/screencapture-cml2377-github-io-2020-01-10-21_31_02.png" width="100%" height="auto">
 
 ## Built With
 
