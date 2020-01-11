@@ -1,12 +1,35 @@
 # Crystal Ly's Portfolio
 
-* [My Site](https://cml2377.github.io/)
+* [Click here](https://cml2377.github.io/)
 
 ## Hello!
 
-My name is Crystal Ly. This is my first website featuring CSS, HTML, and hopefully Javascript in the future. It holds an About Me, Portfolio, and Contact page. It is still a work in progress! Any feedback is appreciated! :) 
+This is Crystal Ly's profile with portfolio.
+
+## Look at my Projects!
+
+Click on any photo of my projects to be taken to the github repo that holds it.
+<img src="assets/images/Screenshot1.png" width="100%" height="auto">
+
+## Built With
+
+* [Bootstrap](https://www.bootstrapcdn.com/) - I used Bootstrap CSS framework. 
+* [Unsplash](https://unsplash.com/t/animals) - I used copyright-free images from this site.
+* [FontAwesome](https://fontawesome.com/) - I used the connectdevelop icon.
+* [Google Fonts](https://fonts.google.com/) - We used 1 font style from Google Fonts.
+* [html5up](https://html5up.net/) - I used html5up to grab a template for my website.
+
+## Contributing
+
+Thanks to Isreal Medina, Brittany Taylor, and Eric Scott for teaching and guiding us through this bootcamp!
+
+## Author
+* [Crystal Ly](https://github.com/cml2377)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Thanks to the Coding Bootcamp at University of Texas at Austin!
-* Thank you Bootstrap!
+* Hat tip to anyone whose code was used
