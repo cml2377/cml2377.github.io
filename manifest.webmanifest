@@ -3,8 +3,8 @@
     "short_name": "C.Ly Portfolio",
     "icons": [
         {
-            "src": "/assets/images/Crystal&Anthony.png",
-            "sizes": "72x72",
+            "src": "/assets/images/studying.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
