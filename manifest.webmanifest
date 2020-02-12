@@ -1,0 +1,15 @@
+{
+    "name": "Crystal Ly's Profile",
+    "short_name": "C.Ly Portfolio",
+    "icons": [
+        {
+            "src": "/assets/images/Crystal&Anthony.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#56efe2",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
+}
