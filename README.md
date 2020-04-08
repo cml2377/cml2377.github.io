@@ -9,7 +9,7 @@ This is Crystal Ly's developer profile.
 ## Look at my Projects!
 
 Click on any photo of my projects to be taken to the github repo that holds it.
-<img src="assets/images/screencapture-file-C-Users-cryst-Desktop-Homework-cml2377-github-io-index-html-2020-03-04-13_08_34.png" width="100%" height="auto">
+<img src="assets\images\screencapture-cml2377-github-io-2020-04-08-13_36_12.png" width="100%" height="auto">
 
 ## Built With
 
